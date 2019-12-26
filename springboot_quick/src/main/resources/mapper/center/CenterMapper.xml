@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.dhj.demo.mapper.center.CenterMapper">
+    <select id="getCenterUser" resultType="com.dhj.demo.pojo.center.UserCenter">
+        select * from a_aatest
+    </select>
+<!--    <select id="getUserListById" resultType="user" >-->
+<!--        select * from a_atest where id = #{id}-->
+<!--    </select>-->
+</mapper>
